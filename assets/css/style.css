@@ -66,11 +66,11 @@ body {
     background-color: brown;
 }
 
-/* .debug [class^="col"] {
+.debug [class^="col"] {
     background-color: red;
     height: 50px;
     border: 1px solid black;
-} */
+}
 
 .debug .title {
     height: 100px;
