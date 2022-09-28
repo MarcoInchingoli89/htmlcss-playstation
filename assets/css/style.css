@@ -17,6 +17,9 @@ body {
     --ps-dark-light: #1F1F1F;
     --ps-button: #2D64E6;
     --ps-bgwhite: #FFFFFF;
+    --ps-plus: #BEBCBB;
+    --ps-buttonplus: #D9DADC;
+
 
 }
 
@@ -24,6 +27,12 @@ body {
 
 header .bg_heading {
     background-color: var(--ps-dark);
+}
+
+/* Main */
+
+main .bg_psplus {
+    background-color: var(--ps-plus);
 }
 
 /* Debug */
@@ -65,5 +74,9 @@ header .bg_heading {
 .debug .takes_two {
     height: 350px;
     background-color: crimson;
+}
+
+.debug .psplus {
+    height: 200px;
 }
 
