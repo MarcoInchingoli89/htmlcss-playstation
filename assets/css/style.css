@@ -6,3 +6,33 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Colors Palette */
+
+:root {
+    --ps-dark: #000000;
+    --ps-dark-light: #1F1F1F;
+    --ps-button: #2D64E6;
+    --ps-bgwhite: #FFFFFF;
+
+}
+
+/* Header */
+
+header .bg_heading {
+    background-color: var(--ps-dark);
+}
+
+/* Debug */
+
+.debug .heading {
+    height: 50px;
+}
+
+.debug nav {
+    background-color: aqua;
+    height: 100px;
+}
