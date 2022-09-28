@@ -62,3 +62,8 @@ header .bg_heading {
     background-color: cadetblue;
 }
 
+.debug .takes_two {
+    height: 350px;
+    background-color: crimson;
+}
+
