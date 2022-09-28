@@ -28,6 +28,8 @@ header .bg_heading {
 
 /* Debug */
 
+/* Header */
+
 .debug .heading {
     height: 50px;
 }
@@ -35,4 +37,11 @@ header .bg_heading {
 .debug nav {
     background-color: aqua;
     height: 100px;
+}
+
+/* Main */
+
+.debug .carousel {
+    height: 400px;
+    background-color: blueviolet;
 }
