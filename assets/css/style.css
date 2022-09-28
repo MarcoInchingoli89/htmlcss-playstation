@@ -56,3 +56,9 @@ header .bg_heading {
     height: 50px;
     border: 1px solid black;
 }
+
+.debug .title {
+    height: 100px;
+    background-color: cadetblue;
+}
+
