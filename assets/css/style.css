@@ -42,6 +42,17 @@ header .bg_heading {
 /* Main */
 
 .debug .carousel {
-    height: 400px;
+    height: 300px;
     background-color: blueviolet;
+}
+
+.debug .slider {
+    height: 150px;
+    background-color: brown;
+}
+
+.debug [class^="col"] {
+    background-color: red;
+    height: 50px;
+    border: 1px solid black;
 }
