@@ -19,21 +19,27 @@ body {
     --ps-bgwhite: #FFFFFF;
     --ps-plus: #BEBCBB;
     --ps-buttonplus: #D9DADC;
-
-
+    --ps-footer: #00439C;
+    --ps-psnow: #161C3B;
+    --ps-buttonnow: #F5F5F5;
 }
 
 /* Header */
 
-header .bg_heading {
+.bg_heading {
     background-color: var(--ps-dark);
 }
 
 /* Main */
 
-main .bg_psplus {
+.bg_psplus {
     background-color: var(--ps-plus);
 }
+
+.bg_psnow {
+    background-color: var(--ps-psnow);
+}
+
 
 /* Debug */
 
@@ -80,3 +86,6 @@ main .bg_psplus {
     height: 200px;
 }
 
+.debug .psnow {
+    height: 200px;
+}
