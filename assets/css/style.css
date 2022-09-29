@@ -18,6 +18,12 @@ h2 {
     font-size: 25px;
 }
 
+body .btn {
+    font-size: 10px;
+    color: var(--ps-buttonlight);
+    font-weight: 600;
+}
+
 /* Colors Palette */
 
 :root {
@@ -26,6 +32,7 @@ h2 {
     --ps-dark-lighter: #363636;
     --ps-button: #2D64E6;
     --ps-bgwhite: #FFFFFF;
+    --ps-buttonlight: #FEFDFC;
     --ps-plus: #BEBCBB;
     --ps-buttonplus: #D9DADC;
     --ps-footer: #00439C;
@@ -60,13 +67,11 @@ header nav .btn_dark {
     height: 500px;
 }
 
-.carousel .btn-danger {
-    font-size: 10px;
-}
-
 .thumbs .col .thumb_border {
     border: 1px solid var(--ps-button);
 }
+
+
 /* Debug */
 
 /* Header */
