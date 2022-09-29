@@ -18,6 +18,14 @@ h2 {
     font-size: 25px;
 }
 
+h5 {
+    font-size: 19px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
 body .btn {
     font-size: 10px;
     color: var(--ps-buttonlight);
@@ -67,6 +75,17 @@ header nav .btn_dark {
     height: 500px;
 }
 
+.takes_two {
+    background-image: url("/assets/img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.bg_new_release {
+    background-color: var(--ps-dark-light);
+}
+
 
 /* Debug */
 
@@ -104,10 +123,10 @@ header nav .btn_dark {
     background-color: cadetblue;
 } */
 
-.debug .takes_two {
+/* .debug .takes_two {
     height: 350px;
     background-color: crimson;
-}
+} */
 
 .debug .psplus {
     height: 200px;
