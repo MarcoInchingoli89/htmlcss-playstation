@@ -98,6 +98,14 @@ header nav .btn_dark {
     background-color: var(--ps-psnow);
 }
 
+.psnow .btn_plus {
+    background-color:var(--ps-buttonplus);
+}
+
+footer {
+    background-color: var(--ps-footer);
+}
+
 
 /* Debug */
 
