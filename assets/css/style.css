@@ -15,6 +15,7 @@ body {
 :root {
     --ps-dark: #000000;
     --ps-dark-light: #1F1F1F;
+    --ps-dark-lighter: #363636;
     --ps-button: #2D64E6;
     --ps-bgwhite: #FFFFFF;
     --ps-plus: #BEBCBB;
@@ -28,6 +29,10 @@ body {
 
 .bg_heading {
     background-color: var(--ps-dark);
+}
+
+header nav .btn_dark {
+    background-color: var(--ps-dark-lighter)
 }
 
 /* Main */
