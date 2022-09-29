@@ -60,14 +60,6 @@ header nav .btn_dark {
 
 /* Main */
 
-.bg_psplus {
-    background-color: var(--ps-plus);
-}
-
-.bg_psnow {
-    background-color: var(--ps-psnow);
-}
-
 .carousel .slider {
     background-image: url("/assets/img/jumbo-bg.png");
     background-size: cover;
@@ -90,12 +82,20 @@ header nav .btn_dark {
     background-color: var(--ps-dark-light);
 }
 
+.bg_psplus {
+    background-color: var(--ps-plus);
+}
+
 .psplus .btn_plus {
     background-color:var(--ps-buttonplus);
 }
 
 .psplus p {
     font-weight: 600;
+}
+
+.bg_psnow {
+    background-color: var(--ps-psnow);
 }
 
 
@@ -144,6 +144,6 @@ header nav .btn_dark {
     height: 200px;
 } */
 
-.debug .psnow {
+/* .debug .psnow {
     height: 200px;
-}
+} */
