@@ -90,6 +90,14 @@ header nav .btn_dark {
     background-color: var(--ps-dark-light);
 }
 
+.psplus .btn_plus {
+    background-color:var(--ps-buttonplus);
+}
+
+.psplus p {
+    font-weight: 600;
+}
+
 
 /* Debug */
 
@@ -132,9 +140,9 @@ header nav .btn_dark {
     background-color: crimson;
 } */
 
-.debug .psplus {
+/* .debug .psplus {
     height: 200px;
-}
+} */
 
 .debug .psnow {
     height: 200px;
