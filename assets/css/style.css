@@ -60,7 +60,9 @@ header nav .btn_dark {
     height: 500px;
 }
 
-
+.carousel .btn-danger {
+    font-size: 10px;
+}
 /* Debug */
 
 /* Header */
