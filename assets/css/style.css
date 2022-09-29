@@ -75,6 +75,10 @@ header nav .btn_dark {
     height: 500px;
 }
 
+.title .play {
+    font-size: 0.6rem;
+}
+
 .takes_two {
     background-image: url("/assets/img/it-takes-two-hero-banner-desktop.jpg");
     background-size: cover;
