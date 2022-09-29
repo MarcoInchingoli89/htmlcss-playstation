@@ -67,10 +67,6 @@ header nav .btn_dark {
     height: 500px;
 }
 
-.thumbs .col .thumb_border {
-    border: 1px solid var(--ps-button);
-}
-
 
 /* Debug */
 
