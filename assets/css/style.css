@@ -1,4 +1,4 @@
-/* Common */
+/* #region Common */
 
 * {
     margin: 0;
@@ -32,7 +32,9 @@ body .btn {
     font-weight: 600;
 }
 
-/* Colors Palette */
+/* #endregion Common */
+
+/* #region Colors Palette */
 
 :root {
     --ps-dark: #000000;
@@ -48,7 +50,9 @@ body .btn {
     --ps-buttonnow: #F5F5F5;
 }
 
-/* Header */
+/* #endregion Colors Palette */
+
+/* #region Header */
 
 .bg_heading {
     background-color: var(--ps-dark);
@@ -58,7 +62,9 @@ header nav .btn_dark {
     background-color: var(--ps-dark-lighter)
 }
 
-/* Main */
+/* #endregion Header */
+
+/* #region Main */
 
 .carousel .slider {
     background-image: url("/assets/img/jumbo-bg.png");
@@ -102,56 +108,12 @@ header nav .btn_dark {
     background-color:var(--ps-buttonplus);
 }
 
+/* #endregion Main */
+
+/* #region Footer */
+
 footer {
     background-color: var(--ps-footer);
 }
 
-
-/* Debug */
-
-/* Header */
-
-/* .debug .heading {
-    height: 50px;
-}
-
-.debug nav {
-    background-color: aqua;
-    height: 100px;
-} */
-
-/* Main */
-
-/* .debug .carousel {
-    height: 300px;
-    background-color: blueviolet;
-}
-
-.debug .slider {
-    height: 150px;
-    background-color: brown;
-} */
-
-/* .debug [class^="col"] {
-    background-color: red;
-    height: 50px;
-    border: 1px solid black;
-} */
-
-/* .debug .title {
-    height: 100px;
-    background-color: cadetblue;
-} */
-
-/* .debug .takes_two {
-    height: 350px;
-    background-color: crimson;
-} */
-
-/* .debug .psplus {
-    height: 200px;
-} */
-
-/* .debug .psnow {
-    height: 200px;
-} */
+/* #endregion Footer */
