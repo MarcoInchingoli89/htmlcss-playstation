@@ -73,7 +73,7 @@ header nav .btn_dark {
 .carousel .slider {
     background-image: url("/assets/img/jumbo-bg.png");
     background-size: cover;
-    background-position: center;
+    background-position: top center;
     height: 500px;
 }
 
@@ -124,3 +124,17 @@ footer {
 /* #endregion Footer */
 
 /* Animation */
+
+.playstation5 .enlight:hover {
+    opacity: 1.0;
+    cursor: pointer;
+    color: var(--ps-dark);
+}
+
+.opacity_50 {
+    opacity: 0.5;
+}
+
+.text_secondary {
+    color: grey;
+}
